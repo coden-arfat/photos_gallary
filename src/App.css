@@ -1,0 +1,40 @@
+.cards{
+  background-color: rgba(255, 255, 0, 0.822);
+  display: grid;
+  padding: 2rem;
+  
+}
+.card{
+  background-color: #eee;
+  padding: 2rem;
+}
+.all_btn{
+  display: grid ;
+  place-items: center;
+  padding: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.btn{
+  padding: .8rem;
+  width: 7rem;
+   text-transform: uppercase;
+}
+.btn:hover{
+  background-color: rgba(172, 255, 47, 0.609);
+  outline: none;
+  border: 1px solid;
+}
+.cardEnd{
+  display: grid;
+  grid-template-columns: 1fr .2fr;
+  margin-top: 1rem;
+  color: green;
+  font-size: large;
+
+}
+.cardEnd button{
+    outline: none;
+  border-radius: 15px;
+
+}
