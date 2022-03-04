@@ -20,6 +20,7 @@
   padding: .8rem;
   width: 7rem;
    text-transform: uppercase;
+   color: goldenrod;
 }
 .btn:hover{
   background-color: rgba(172, 255, 47, 0.609);
